@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-image: url('./background1.jpg');
+            
+        }
+      h1{
+        text-align: center;
+      }
+      img{
+        padding: 10px 10px 10px 10px;
+        position: relative;
+        float: right; 
+        width:350px;
+        height:350px;
+      } 
+      .first{
+        padding-left: 120px;
+        text-align: justify;
+        color: red;
+        font-size: 20px;
+      }
+      table, th, td{
+        border: 5px solid black;
+        border-radius: 10px;
+      }
+      th, td{
+        background-color:aquamarine;
+        text-align: center;
+      }
+
+
+    </style>
+    <title>My Project</title>
+</head>
+<body>
+    <div>
+    <h1><u>Welcome to My First HTML Project</u></h1>
+    <div class="second">
+      <a href="https://www.linkedin.com/in/harshit-singh-665273178/" target="_blank"><img  style="border: 10px outset silver;" title="Harshit Singh" src="./profile.JPG" alt="Harshit Singh"></a>
+  </div>  
+  </div>
+    <div class="first" style="justify-items: center;">
+       <br><br>
+       <ul>
+       <p><b> 
+        <li>Name: <a href="https://www.linkedin.com/in/harshit-singh-665273178/" target="_blank" title="LinkedIn-Harshit Singh" style="color: red;">Harshit Singh</a></li><br>
+        <li>College Name: Chandigarh University </li><br>
+        <li>College Year: 2nd Year </li><br>
+        <li>Course: Bachelor of Engineering </li><br>
+        <li>Branch: Computer Science Engineering </li><br>
+        <li>Date of Birth: 20 March 2002 </li><br><br><br><br><br>
+        </b></p></ul>    
+      </div>
+
+    <div>
+      <table align="center">
+        <b><p style="text-align: center; font-size: large;">***Languages Known***</p></b>
+        <tr>
+            <th style="width: 60px; justify-content: center;">S.No.</th>
+            <th style="width: 60px; justify-content: center;">Name</th>
+            <th style="width: 60px; justify-content: center;">Level</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>C</td>
+            <td>Inetermediate</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>C++</td>
+            <td>Proficient</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Java</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>HTML</td>
+          <td>Inetermediate</td>
+      </tr>
+    </table>
+    </div>
+
+    <div class="third">
+      <form>
+        <p>Contact me!!!</p>
+        <ol><p>
+          <li>Personal Details</li>
+          <label for="fname">First Name</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Last Name</label><br>
+          <input type="text" id="lname" name="lname"><br><br>
+
+        <li>Email id</li>
+        <input type="text" id="email" name="email"><br><br>
+          
+        <li>Year</li></p>
+        <input type="radio" name="Year" value="1st Year">1st Year<br>
+        <input type="radio" name="Year" value="2nd Year">2nd Year<br>
+        <input type="radio" name="Year" value="3rd Year">3rd Year<br>
+        <input type="radio" name="Year" value="4th year">4th Year<br><br>
+        
+        <li>Reason for conatacting</li>
+        <input type="checkbox" name="reason" value="Personal">Personal<br>
+        <input type="checkbox" name="reason" value="Guidance">Guidance<br>
+        <input type="checkbox" name="reason" value="Administration">Administration<br>
+        <input type="checkbox" name="reason" id="Other" value="Other">Other<br>
+        <input type="text" id="Other" name="reason"><br><br>
+
+        <button>Submit</button><br><br>  
+       </ol>
+    </form>
+    </div>
+   
+</body>
+</html>
